@@ -28,6 +28,7 @@ let mostrarInfoCurso = ()=>{
     for (let i = 0; i < cursos.length; i++) {
         setTimeout(() => {
             console.log(
+            'ID: '+ cursos[i].codigo+  
             'El curso se llama '+cursos[i].nombre+
             ' tiene una duracion de '+cursos[i].duracion+
             ' y un valor de '+cursos[i].valor);
